@@ -28,5 +28,6 @@ function stopWatch() {
 }
 function resetWatch() {
     console.log('watch reset')
+    clearTimeout(startInterval)
 }
 
